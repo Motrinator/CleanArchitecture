@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.Services.DTOs
+﻿namespace CleanArchitecture.Application.DTOs
 {
     public class StudentDto
     {

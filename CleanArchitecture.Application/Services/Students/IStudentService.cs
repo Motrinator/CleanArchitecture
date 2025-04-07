@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Services.DTOs;
+﻿using CleanArchitecture.Application.DTOs;
 
 namespace CleanArchitecture.Application.Services.Students
 {

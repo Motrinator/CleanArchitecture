@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Services.DTOs;
+﻿using CleanArchitecture.Application.DTOs;
 using CleanArchitecture.Application.Services.Students;
 using Microsoft.AspNetCore.Mvc;
 
