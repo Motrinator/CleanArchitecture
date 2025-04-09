@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using CleanArchitecture.Application.Services.Students;
 using CleanArchitecture.Domain.Repositories;
 using CleanArchitecture.Infrastucture;
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<StudentContext>();
+builder.Services.AddSingleton<IDbContextFactory<StudentContext>, StudentDbContextFactory>();
 builder.Services.AddSingleton<IStudentRepository, StudentRepository>();
 builder.Services.AddSingleton<IStudentService, StudentService>();
 
